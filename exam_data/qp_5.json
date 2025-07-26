@@ -1,159 +1,189 @@
 {
-   "courseCode":"CST 206",
-   "courseName":"OPERATING SYSTEMS",
-   "month":"April",
-   "questions":[
-      {
-         "marks":"3",
-         "module":"Module 1",
-         "question":"Define user mode and kernel mode. Why the two modes of operations are required for the system?"
-      },
-      {
-         "marks":"3",
-         "module":"Module 1",
-         "question":"Write the operations taking place during the booting of a system."
-      },
-      {
-         "marks":"3",
-         "module":"Module 2",
-         "question":"With a neat diagram, explain various states of a process."
-      },
-      {
-         "marks":"3",
-         "module":"Module 2",
-         "question":"Differentiate between Short term, Medium Term and Long term process schedulers."
-      },
-      {
-         "marks":"3",
-         "module":"Module 3",
-         "question":"What are the conditions that a solution to the critical section problem must satisfy?"
-      },
-      {
-         "marks":"3",
-         "module":"Module 3",
-         "question":"What is a resource-allocation graph?"
-      },
-      {
-         "marks":"3",
-         "module":"Module 4",
-         "question":"What do you mean by thrashing?"
-      },
-      {
-         "marks":"3",
-         "module":"Module 4",
-         "question":"How is swapping done? Explain with the help of a diagram."
-      },
-      {
-         "marks":"3",
-         "module":"Module 5",
-         "question":"Name any three file access methods? How do they differ ?"
-      },
-      {
-         "marks":"3",
-         "module":"Module 5",
-         "question":"Define the terms i) Seek time ii) Rotational bandwidth iii) Disk bandwidth"
-      },
-      {
-         "marks":"10",
-         "module":"Module 1",
-         "question":"Explain various structures of the operating system with the help of neat diagrams."
-      },
-      {
-         "marks":"4",
-         "module":"Module 1",
-         "question":"Explain the services offered by an operating system."
-      },
-      {
-         "marks":"8",
-         "module":"Module 1",
-         "question":"Explain any four functions of an Operating System."
-      },
-      {
-         "marks":"6",
-         "module":"Module 1",
-         "question":"Describe the purpose of system call. How do the parameter passing takes place in system call."
-      },
-      {
-         "marks":"6",
-         "module":"Module 2",
-         "question":"Explain Inter Process Communication using a shared memory model."
-      },
-      {
-         "marks":"8",
-         "module":"Module 2",
-         "question":"Draw a Gantt chart illustrating the execution of the following processes given in the table using priority scheduling algorithm (non preemptive) and also calculate the average waiting time and average turnaround time for them. Process: P0 Arrival Time: 0 Burst Time: 8 Priority: 5; Process: P1 Arrival Time: 1 Burst Time: 4 Priority: 2; Process: P2 Arrival Time: 2 Burst Time: 1 Priority: 1; Process: P3 Arrival Time: 3 Burst Time: 5 Priority: 3; Process: P4 Arrival Time: 4 Burst Time: 2 Priority: 4"
-      },
-      {
-         "marks":"6",
-         "module":"Module 2",
-         "question":"Explain process creation in an operating system using suitable example."
-      },
-      {
-         "marks":"8",
-         "module":"Module 2",
-         "question":"Draw Gantt Chart and find the average waiting time and average turnaround time for the processes given in the table below for the Round Robin CPU Scheduling algorithm. Assume time slice is 2 ms. Process: P1 Arrival Time: 0 Burst Time: 5; Process: P2 Arrival Time: 1 Burst Time: 4; Process: P3 Arrival Time: 2 Burst Time: 2; Process: P4 Arrival Time: 3 Burst Time: 1"
-      },
-      {
-         "marks":"7",
-         "module":"Module 3",
-         "question":"Explain how semaphores can be used to solve Readers-Writers problem."
-      },
-      {
-         "marks":"7",
-         "module":"Module 3",
-         "question":"How can hardware instruction be used to solve critical section problem? Explain."
-      },
-      {
-         "marks":"10",
-         "module":"Module 4",
-         "question":"Consider the following snapshot of a system: PROCESS: P0 ALLOCATION: A:0 B:0 C:1 D:2 MAX: A:0 B:0 C:1 D:2 AVAILABLE: A:1 B:5 C:2 D:0; PROCESS: P1 ALLOCATION: A:1 B:0 C:0 D:0 MAX: A:1 B:7 C:5 D:0; PROCESS: P2 ALLOCATION: A:1 B:3 C:5 D:4 MAX: A:2 B:3 C:5 D:6; PROCESS: P3 ALLOCATION: A:0 B:6 C:3 D:2 MAX: A:0 B:6 C:5 D:2; PROCESS: P4 ALLOCATION: A:0 B:0 C:1 D:4 MAX: A:0 B:6 C:5 D:6. Answer the following questions using Bankers algorithm a. What is the content of \"Need\" matrix? b. Is the system in a safe state? Justify your answer. c. If a request from P1 arrives for (0 4 2 0), can the request be granted immediately"
-      },
-      {
-         "marks":"4",
-         "module":"Module 4",
-         "question":"Define semaphore with its operations. What are the two types of Semaphores?"
-      },
-      {
-         "marks":"6",
-         "module":"Module 4",
-         "question":"Given six memory partitions of 300 KB, 600 KB, 350 KB, 200 KB, 750 KB, and 125 KB (in order), how would the first-fit and best-fit algorithms place processes of size 115 KB, 500 KB, 358 KB, 200 KB, and 375 KB (in order)? Rank the algorithms in terms of how efficiently they use memory."
-      },
-      {
-         "marks":"8",
-         "module":"Module 4",
-         "question":"How do segmentation differ from paging?"
-      },
-      {
-         "marks":"9",
-         "module":"Module 5",
-         "question":"Consider the following page reference string: 505352501073. Given that, number of frames is 3, find how many page faults would occur for the following page replacement algorithms. i) LRU replacement ii) FIFO replacement iii) Optimal replacement"
-      },
-      {
-         "marks":"5",
-         "module":"Module 5",
-         "question":"With the help of a diagram, explain how logical address is translated into physical address in paging. Illustrate with an example."
-      },
-      {
-         "marks":"9",
-         "module":"Module 5",
-         "question":"Explain FCFS, SSTF and SCAN disk scheduling algorithms. For the given disk queue of requests: - 98,183,37,122,14,124,65,67, find the total seek time for FCFS, SSTF and SCAN disk scheduling algorithms. Assume that current position of head is at 53."
-      },
-      {
-         "marks":"5",
-         "module":"Module 5",
-         "question":"Explain any two file allocation methods."
-      },
-      {
-         "marks":"6",
-         "module":"Module 5",
-         "question":"Explain Elevator algorithm for disk scheduling with an example."
-      },
-      {
-         "marks":"8",
-         "module":"Module 5",
-         "question":"Describe any four directory structures used in file systems."
-      }
-   ],
-   "scheme":"2019 Scheme",
-   "year":2025
+  "courseCode": "CST206",
+  "courseName": "OPERATING SYSTEMS",
+  "month": "July",
+  "questions": [
+    {
+      "marks": "3",
+      "module": "Module-1",
+      "question": "Which are the three methods used to pass parameters to operating system ?",
+      "topic": "System Calls"
+    },
+    {
+      "marks": "3",
+      "module": "Module-1",
+      "question": "Write three advantages of peer-to-peer system over client server system.",
+      "topic": "Operating System Structures"
+    },
+    {
+      "marks": "3",
+      "module": "Module-2",
+      "question": "Differentiate Pre-emptive and Non-pre-emptive scheduling giving the application of each of them.",
+      "topic": "Process Scheduling Criteria"
+    },
+    {
+      "marks": "3",
+      "module": "Module-2",
+      "question": "Why is context switching considered to be an overhead to the system?",
+      "topic": "Process States and PCB"
+    },
+    {
+      "marks": "3",
+      "module": "Module-3",
+      "question": "What are necessary conditions which can lead to a deadlock situation in a system?",
+      "topic": "Deadlock Conditions"
+    },
+    {
+      "marks": "3",
+      "module": "Module-3",
+      "question": "Explain the wait and signal operations used in semaphores.",
+      "topic": "Semaphores"
+    },
+    {
+      "marks": "3",
+      "module": "Module-4",
+      "question": "How does swapping result in better memory management?",
+      "topic": "Swapping"
+    },
+    {
+      "marks": "3",
+      "module": "Module-4",
+      "question": "Explain the concept of virtual memory. Write one memory management scheme which supports virtual memory.",
+      "topic": "Virtual Memory"
+    },
+    {
+      "marks": "3",
+      "module": "Module-5",
+      "question": "Compare sequential access and direct access methods of storage devices.",
+      "topic": "File Access Methods"
+    },
+    {
+      "marks": "3",
+      "module": "Module-5",
+      "question": "Write notes on disk formatting.",
+      "topic": "Disk Formatting"
+    },
+    {
+      "marks": "9",
+      "module": "Module-1",
+      "question": "Distinguish among the following terminologies associated with the operating system and explain each of them in detail.\n(i) Multiprogramming systems\n(ii) Multitasking systems\n(iii) Multiprocessor systems.",
+      "topic": "Operating System Structures"
+    },
+    {
+      "marks": "5",
+      "module": "Module-1",
+      "question": "Explain, how the long-term scheduler directly affects the system performance.",
+      "topic": "Process Scheduling Criteria"
+    },
+    {
+      "marks": "6",
+      "module": "Module-1",
+      "question": "Explain in detail about the various functions of operating systems.",
+      "topic": "Operating System Structures"
+    },
+    {
+      "marks": "8",
+      "module": "Module-1",
+      "question": "Write notes on the following operating system structures.\n(i) Layered approach (ii) Microkernel",
+      "topic": "Operating System Structures"
+    },
+    {
+      "marks": "8",
+      "module": "Module-2",
+      "question": "A writer process like to send some bulk information to a reader process. Explain the IPC mechanism that can be used for this purpose.",
+      "topic": "Inter-Process Communication (IPC)"
+    },
+    {
+      "marks": "6",
+      "module": "Module-2",
+      "question": "How many child process will be created for the following code?\nvoid main() { fork(); fork(); printf(\"HELLO\\n\"); fork();\nprintf(\"WELCOME\\n\"); }\nHow many times HELLO and WELCOME will be printed? Justify your answer.",
+      "topic": "Process Lifecycle Management"
+    },
+    {
+      "marks": "12",
+      "module": "Module-2",
+      "question": "Five batch jobs A through E arrive at a computer system in the order A to E at almost the same time. They have estimated running times of 6, 4, 1, 3, and 7 seconds. Their (externally determined) priorities are 3, 5, 2, 1, and 4 respectively, with 5 being the highest priority. For each of the following scheduling algorithms, determine the average process waiting time. Ignore process switching overhead.\n(i) Round Robin (assume quantum = 2 sec) (ii) First-come first-served\n(iii) Shortest job first\n(iv) Priority scheduling",
+      "topic": "Process Scheduling Algorithms"
+    },
+    {
+      "marks": "2",
+      "module": "Module-2",
+      "question": "Point out the significance of Zero capacity queue in IPC?",
+      "topic": "Inter-Process Communication (IPC)"
+    },
+    {
+      "marks": "8",
+      "module": "Module-3",
+      "question": "Consider the following snapshot of a system with five processes P1, P2, P3, P4, P5 and four resources A, B, C, D. What is the total number of instances of A, B, C, and D? Using Bankers Algorithm check whether the system is in safe state or not.\nAllocation | Max | Available\n--- | --- | ---\nA B C D | A B C D | A B C D\nP1 1 0 2 2 | 3 2 5 2 | 3 0 0 1\nP2 0 2 1 2 | 3 4 1 2 |\nP3 2 4 5 0 | 2 7 7 3 |\nP4 3 0 0 0 | 5 5 0 7 |\nP5 4 2 1 3 | 6 2 1 4 |",
+      "topic": "Banker's Algorithm"
+    },
+    {
+      "marks": "6",
+      "module": "Module-3",
+      "question": "What is critical section problem? What are the requirements that need to be satisfied by any solution to critical section problem? Give a solution to a 2 process critical section problem.",
+      "topic": "Critical Section Problem"
+    },
+    {
+      "marks": "8",
+      "module": "Module-3",
+      "question": "Describe the Bounded - buffer problem and give a solution for the same using semaphores. Write the structure of producer and consumer processes.",
+      "topic": "Classic Synchronization Problems"
+    },
+    {
+      "marks": "6",
+      "module": "Module-3",
+      "question": "Why is deadlock state more critical than starvation? Draw the resource allocation graph (i) with deadlock (ii) with a cycle but no deadlock.",
+      "topic": "Resource Allocation Graphs"
+    },
+    {
+      "marks": "8",
+      "module": "Module-4",
+      "question": "Explain with the help of supporting diagram, how translation look-aside buffer (TLB) improves the performance of a paging system.",
+      "topic": "Paging"
+    },
+    {
+      "marks": "6",
+      "module": "Module-4",
+      "question": "With a diagram write the steps involved in handling a page fault.",
+      "topic": "Demand Paging"
+    },
+    {
+      "marks": "9",
+      "module": "Module-4",
+      "question": "Consider the page reference string 1,2,3,4,2,1,5,6,2,1,2,3,7,6,3,2,1,2,3,6. For a system with 3 frames compute the number of page faults for the following page replacement methods: (i) FCFS (ii) Optimal (iii) LRU.",
+      "topic": "Page Replacement Algorithms"
+    },
+    {
+      "marks": "5",
+      "module": "Module-4",
+      "question": "Consider the following segment table:\nSegment | Base Address | Length\n--- | --- | ---\n0 | 100 | 400\n1 | 3700 | 300\n2 | 700 | 600\n3 | 2600 | 500\n4 | 1500 | 1000\nWhat are the physical addresses for the following logical addresses?\n(i) 4, 350 (ii) 2, 100 (iii) 3, 70 (iv) 0, 25 (v) 1, 130",
+      "topic": "Segmentation"
+    },
+    {
+      "marks": "9",
+      "module": "Module-5",
+      "question": "Explain FCFS, SSTF and SCAN disk scheduling algorithms, using the given disk queue of requests: 82,170,43,140,24,16,190. Find the total seek time for each case. Assume that, the disk has 200 cylinders ranging from 0 to 199 and the current position of head is at cylinder 50.",
+      "topic": "Disk Scheduling"
+    },
+    {
+      "marks": "5",
+      "module": "Module-5",
+      "question": "Explain indexed allocation method with an example.",
+      "topic": "File Allocation Methods"
+    },
+    {
+      "marks": "10",
+      "module": "Module-5",
+      "question": "Explain the different directory structures used in file system.",
+      "topic": "Directory Implementation"
+    },
+    {
+      "marks": "4",
+      "module": "Module-5",
+      "question": "Different users may need different types of access to a file or directory. Explain the most general scheme to implement identity dependent access.",
+      "topic": "File Protection"
+    }
+  ],
+  "scheme": "2019 Scheme",
+  "year": 2021
 }

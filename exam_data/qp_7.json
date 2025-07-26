@@ -1,0 +1,189 @@
+{
+  "courseCode": "CST 206",
+  "courseName": "OPERATING SYSTEMS",
+  "month": "January",
+  "questions": [
+    {
+      "marks": "3",
+      "module": "Module-1",
+      "question": "Define Operating System. Mention its purpose and objectives.",
+      "topic": "Operating System Structures"
+    },
+    {
+      "marks": "3",
+      "module": "Module-1",
+      "question": "Which are the three methods used to pass parameters to operating system?",
+      "topic": "System Calls"
+    },
+    {
+      "marks": "3",
+      "module": "Module-2",
+      "question": "With a figure, explain how process is created using fork () system call?",
+      "topic": "Process Lifecycle Management"
+    },
+    {
+      "marks": "3",
+      "module": "Module-2",
+      "question": "What is the use of Process Control Block (PCB) in operating system?",
+      "topic": "Process States and PCB"
+    },
+    {
+      "marks": "3",
+      "module": "Module-3",
+      "question": "What is meant by critical section? What is critical section problem?",
+      "topic": "Critical Section Problem"
+    },
+    {
+      "marks": "3",
+      "module": "Module-3",
+      "question": "Explain with an example, how wait for graph is used to detect deadlocks?",
+      "topic": "Deadlock Detection and Recovery"
+    },
+    {
+      "marks": "3",
+      "module": "Module-4",
+      "question": "Does paging suffer from fragmentation? Justify your answer.",
+      "topic": "Paging"
+    },
+    {
+      "marks": "3",
+      "module": "Module-4",
+      "question": "Consider a logical address space of 64 pages with 1024 bytes per page mapped to a physical memory of 256 frames. Calculate the\n(i) Number of bits required for logical address.\n(ii) Number of Bits required for physical address.",
+      "topic": "Paging"
+    },
+    {
+      "marks": "3",
+      "module": "Module-5",
+      "question": "Define the terms i) Seek time ii) Rotational delay iii) Disk bandwidth.",
+      "topic": "Disk Structure"
+    },
+    {
+      "marks": "3",
+      "module": "Module-5",
+      "question": "Briefly explain about file attributes.",
+      "topic": "File Concepts and Operations"
+    },
+    {
+      "marks": "9",
+      "module": "Module-1",
+      "question": "a) Explain the features of single processor, multiprocessor and clustered systems?",
+      "topic": "Operating System Structures"
+    },
+    {
+      "marks": "5",
+      "module": "Module-1",
+      "question": "b) What do you understand by system calls? List and explain the system calls used in process control.",
+      "topic": "System Calls"
+    },
+    {
+      "marks": "9",
+      "module": "Module-1",
+      "question": "a) Describe the services provided by an operating systems in detail.",
+      "topic": "Operating System Structures"
+    },
+    {
+      "marks": "5",
+      "module": "Module-1",
+      "question": "b) With a figure, explain the microkernel architecture?",
+      "topic": "Operating System Structures"
+    },
+    {
+      "marks": "9",
+      "module": "Module-2",
+      "question": "a) Draw the Gantt Chart, Calculate the average waiting time and average turnaround time for the processes given in the table, using the following algorithms:\ni) SJF ii)SRTF iii) RR (time slice = 4 ms)\nProcess | Arrival Time (ms) | CPU Burst Time(ms)\nP1 | 0 | 10\nP2 | 2 | 6\nP3 | 3 | 4\nP4 | 6 | 2\nP5 | 10 | 8",
+      "topic": "Process Scheduling Algorithms"
+    },
+    {
+      "marks": "5",
+      "module": "Module-2",
+      "question": "b) What is a process? With the help of a diagram, explain the different process states.",
+      "topic": "Process States and PCB"
+    },
+    {
+      "marks": "8",
+      "module": "Module-2",
+      "question": "a) Discuss briefly the various issues involved in implementing Inter Process Communication (IPC) in message passing system.",
+      "topic": "Inter-Process Communication (IPC)"
+    },
+    {
+      "marks": "6",
+      "module": "Module-2",
+      "question": "b) Describe the differences among short-term, medium-term and long term scheduling.",
+      "topic": "Process Scheduling Criteria"
+    },
+    {
+      "marks": "8",
+      "module": "Module-3",
+      "question": "a) Discuss about any two classic problems of synchronization. How producer consumer problem is solved using semaphores?",
+      "topic": "Classic Synchronization Problems"
+    },
+    {
+      "marks": "6",
+      "module": "Module-3",
+      "question": "b) Describe the various methods of recovery from deadlocks.",
+      "topic": "Deadlock Detection and Recovery"
+    },
+    {
+      "marks": "10",
+      "module": "Module-3",
+      "question": "a) Consider the following snapshot of a system with five processes P1, P2, P3, P4, P5 and four resources A,B,C,D. Using Bankers Algorithm, find the following\ni) How many resources of type A, B, C, D are there?\nii) Calculate the Need Matrix.\niii) Is system is safe state? If yes, find the safe sequence?\niv) If the request from P2 arrives for (0, 3, 2, 0), Can the request be immediately granted?\nProcess | Allocation (A B C D) | Max (A B C D)\nP1 | 0 0 1 2 | 0 0 1 2\nP2 | 1 0 0 0 | 1 7 5 0\nP3 | 1 3 5 4 | 2 3 5 6\nP4 | 0 6 3 2 | 0 6 5 2\nP5 | 0 0 1 4 | 0 6 5 6\nAvailable (A B C D): 1 5 2 0",
+      "topic": "Banker's Algorithm"
+    },
+    {
+      "marks": "4",
+      "module": "Module-3",
+      "question": "b) Describe how the compare_and_swap () instructions can be used to provide mutual exclusion that satisfies the bounded waiting requirement.",
+      "topic": "Process Synchronization Mechanisms"
+    },
+    {
+      "marks": "8",
+      "module": "Module-4",
+      "question": "a) Explain the First-fit, Best-fit, and Worst-fit algorithms for contiguous memory allocation.",
+      "topic": "Contiguous Memory Allocation"
+    },
+    {
+      "marks": "6",
+      "module": "Module-4",
+      "question": "b) With a diagram, write the steps involved in handling a page fault.",
+      "topic": "Demand Paging"
+    },
+    {
+      "marks": "9",
+      "module": "Module-4",
+      "question": "a) Consider the reference string: 1, 2, 3, 4, 2, 1, 5, 6, 2, 1, 2, 3, 7, 6, 3, 2, 1, 2, 3, 6. Assuming demand paging with 3 frames, how many page faults would occur for:-\ni) FIFO replacement algorithm\nii) Optimal replacement algorithm\niii) LRU replacement algorithm\nWhat is the hit Ratio for the above algorithms?",
+      "topic": "Page Replacement Algorithms"
+    },
+    {
+      "marks": "5",
+      "module": "Module-4",
+      "question": "b) Differentiate between Internal Fragmentation and External Fragmentation.",
+      "topic": "Contiguous Memory Allocation"
+    },
+    {
+      "marks": "8",
+      "module": "Module-5",
+      "question": "a) Discuss the concept of Virtual File Systems?",
+      "topic": "File System Implementation"
+    },
+    {
+      "marks": "6",
+      "module": "Module-5",
+      "question": "b) Explain how access matrix is used as a protection mechanism.",
+      "topic": "File Protection"
+    },
+    {
+      "marks": "9",
+      "module": "Module-5",
+      "question": "a) Assume that a magnetic disk has 400 cylinders (numbered 0 to 399). The current position of the head is at cylinder 120. The request queue is 80, 130, 60, 230, 100, 300, 250, and 170. Draw the head movement in each of the following disk scheduling algorithms and compute the total head movement in each case:\n(i) SSTF (ii) SCAN (iii) LOOK",
+      "topic": "Disk Scheduling"
+    },
+    {
+      "marks": "5",
+      "module": "Module-5",
+      "question": "b) What are the different access methods of files? How are they implemented?",
+      "topic": "File Access Methods"
+    }
+  ],
+  "scheme": "2019 Scheme",
+  "year": 2024
+}

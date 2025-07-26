@@ -1,159 +1,189 @@
 {
-   "courseCode":"CST 206",
-   "courseName":"OPERATING SYSTEMS",
-   "month":"June",
-   "questions":[
-      {
-         "marks":"3",
-         "module":"Module 1",
-         "question":"What are the major activities of an operating system with regard to file management?"
-      },
-      {
-         "marks":"3",
-         "module":"Module 1",
-         "question":"Write the operations taking place during the booting of a system."
-      },
-      {
-         "marks":"3",
-         "module":"Module 2",
-         "question":"Explain the different buffering mechanisms used in message passing systems?"
-      },
-      {
-         "marks":"3",
-         "module":"Module 2",
-         "question":"Define the parameters for multilevel feedback queue scheduling? How it is better compared to multilevel queue scheduling?"
-      },
-      {
-         "marks":"3",
-         "module":"Module 3",
-         "question":"What are the three conditions to be satisfied by a solution to critical section problem?"
-      },
-      {
-         "marks":"3",
-         "module":"Module 3",
-         "question":"Explain with an example the improper usage of semaphore causing deadlocks?"
-      },
-      {
-         "marks":"3",
-         "module":"Module 4",
-         "question":"Differentiate Logical address Space and Physical Address Space"
-      },
-      {
-         "marks":"3",
-         "module":"Module 4",
-         "question":"Explain the terms (i) Dynamic Loading (ii) Dynamic Linking"
-      },
-      {
-         "marks":"3",
-         "module":"Module 5",
-         "question":"Discuss the steps in handling a page fault?"
-      },
-      {
-         "marks":"3",
-         "module":"Module 5",
-         "question":"How is disk formatting done?"
-      },
-      {
-         "marks":"7",
-         "module":"Module 1",
-         "question":"What is an Operating System? Explain any 3 types of Operating System."
-      },
-      {
-         "marks":"7",
-         "module":"Module 1",
-         "question":"What is a system call? What are the different ways to pass parameters to system call? List basic types of system call with examples."
-      },
-      {
-         "marks":"8",
-         "module":"Module 1",
-         "question":"Write notes on the following operating system structures. (i) Microkernel structure (ii) Simple Structure (iii) Layered Structure"
-      },
-      {
-         "marks":"6",
-         "module":"Module 1",
-         "question":"Describe the differences between symmetric and asymmetric multiprocessing. What are the advantages and disadvantages of multiprocessor systems?"
-      },
-      {
-         "marks":"7",
-         "module":"Module 2",
-         "question":"Define process. With the help of a neat diagram explain different states of process."
-      },
-      {
-         "marks":"7",
-         "module":"Module 2",
-         "question":"With an example, illustrate the interprocess communication using Shared memory"
-      },
-      {
-         "marks":"8",
-         "module":"Module 2",
-         "question":"Assume you have the following jobs in a system that to be executed with a single processor. Now, Process ID: P0, Arrival Time: 0, Burst Time (ms): 75; Process ID: P1, Arrival Time: 10, Burst Time (ms): 40; Process ID: P2, Arrival Time: 10, Burst Time (ms): 25; Process ID: P3, Arrival Time: 55, Burst Time (ms): 30; Process ID: P4, Arrival Time: 95, Burst Time (ms): 45. i) Create a Gantt chart illustrating the execution ii) Find the average waiting time lii) Find the average turnaround time For the above processes, when the system uses a) Preemptive Scheduling b) RR Scheduling (Time Quantum = 15 ms)"
-      },
-      {
-         "marks":"6",
-         "module":"Module 2",
-         "question":"What are threads? What are the benefits of multithreaded programming? List the ways of establishing relationship between user threads and kernel thread."
-      },
-      {
-         "marks":"6",
-         "module":"Module 3",
-         "question":"Explain Dining Philosophers Problem. Give a solution for the problem using monitors."
-      },
-      {
-         "marks":"8",
-         "module":"Module 3",
-         "question":"What do you mean by deadlock? What are the four necessary conditions for a deadlock to occur? Describe various deadlock prevention mechanisms."
-      },
-      {
-         "marks":"7",
-         "module":"Module 3",
-         "question":"What is a semaphore? Describe how semaphores can be used as a process synchronisation mechanism?"
-      },
-      {
-         "marks":"7",
-         "module":"Module 3",
-         "question":"Consider the following snapshot of the system with five processes P1. P2, P3,P4,P5 and four resources A, B, C, D. Using Bankers Algorithm, check whether the system is in safe state or not."
-      },
-      {
-         "marks":"5",
-         "module":"Module 4",
-         "question":"With the help of a diagram explain how logical address is translated to physical address in case of segmentation scheme. Consider the following segment table of a process. Segment: 0, Base: 219, Limit: 600; Segment: 1, Base: 2300, Limit: 14; Segment: 2, Base: 90, Limit: 100; Segment: 3, Base: 1327, Limit: 580; Segment: 4, Base: 1952, Limit: 96. Compute the resultant physical addresses for the following logical addresses. (i) 0, 430 (ii) 1, 10 (iii) 2,500 (iv) 3, 400 (v) 4, 112"
-      },
-      {
-         "marks":"9",
-         "module":"Module 4",
-         "question":"Consider the following page reference stream, R=3, 2, 4, 3, 4, 2, 2, 3, 4, 5, 6, 7, 7, 6, 5, 4, 5, 6, 7, 2, 1. Assuming demand paging with three frames, how many page faults would occur for the following page replacement algorithms. i) LRU replacement ii) FIFO replacement iii) Optimal replacement"
-      },
-      {
-         "marks":"6",
-         "module":"Module 4",
-         "question":"Define Demand Paging. Explain Swapping with a neat diagram."
-      },
-      {
-         "marks":"8",
-         "module":"Module 4",
-         "question":"Consider a fixed partitioned memory management scheme with fixed partitions are 150K, 300K, 550K, 400K, 250K and 200K (in order). Five processes are ready for execution each with memory requirement as P1(240K), P2(120K), P3(380K), P4(300K) and P5(350K). Write the allocation in each of the following cases and calculate the internal fragmentation and external fragmentation (if any) in each case. (i) First Fit (ii) Best Fit (iii) Worst Fit"
-      },
-      {
-         "marks":"5",
-         "module":"Module 5",
-         "question":"List out the logical structures of a directory with figures."
-      },
-      {
-         "marks":"9",
-         "module":"Module 5",
-         "question":"With neat sketches illustrate the following disk space allocation algorithms (i) Contiguous allocation (ii) Linked allocation (iii) Indexed allocation?"
-      },
-      {
-         "marks":"6",
-         "module":"Module 5",
-         "question":"Discuss Protection. Write notes about the protection strategies provided for files."
-      },
-      {
-         "marks":"8",
-         "module":"Module 5",
-         "question":"Consider a disk queue with requests for I/O to blocks on cylinders 98, 183, 41,122, 14, 124, 65, 67. The head is initially at cylinder number 53. The cylinders are numbered from 0 to 199. Find out the total head movement incurred while servicing these requests, if following scheduling algorithms are used-(i) FCFS (ii) SSTF (iii) C-SCAN (iv) LOOK"
-      }
-   ],
-   "scheme":"2019 Scheme",
-   "year":2023
+  "courseCode": "CST 206",
+  "courseName": "OPERATING SYSTEMS",
+  "month": "June",
+  "questions": [
+    {
+      "marks": "3",
+      "module": "Module-1",
+      "question": "What are the major activities of an operating system with regard to file management?",
+      "topic": "File Concepts and Operations"
+    },
+    {
+      "marks": "3",
+      "module": "Module-1",
+      "question": "Write the operations taking place during the booting of a system.",
+      "topic": "System Boot Process"
+    },
+    {
+      "marks": "3",
+      "module": "Module-2",
+      "question": "Explain the different buffering mechanisms used in message passing systems?",
+      "topic": "Inter-Process Communication (IPC)"
+    },
+    {
+      "marks": "3",
+      "module": "Module-2",
+      "question": "Define the parameters for multilevel feedback queue scheduling? How it is better compared to multilevel queue scheduling?",
+      "topic": "Process Scheduling Algorithms"
+    },
+    {
+      "marks": "3",
+      "module": "Module-3",
+      "question": "What are the three conditions to be satisfied by a solution to critical section problem?",
+      "topic": "Critical Section Problem"
+    },
+    {
+      "marks": "3",
+      "module": "Module-3",
+      "question": "Explain with an example the improper usage of semaphore causing deadlocks?",
+      "topic": "Deadlock Conditions"
+    },
+    {
+      "marks": "3",
+      "module": "Module-4",
+      "question": "Differentiate Logical address Space and Physical Address Space",
+      "topic": "Address Spaces"
+    },
+    {
+      "marks": "3",
+      "module": "Module-4",
+      "question": "Explain the terms (i) Dynamic Loading (ii) Dynamic Linking",
+      "topic": "Swapping"
+    },
+    {
+      "marks": "3",
+      "module": "Module-5",
+      "question": "Discuss the steps in handling a page fault?",
+      "topic": "Demand Paging"
+    },
+    {
+      "marks": "3",
+      "module": "Module-5",
+      "question": "How is disk formatting done?",
+      "topic": "Disk Formatting"
+    },
+    {
+      "marks": "7",
+      "module": "Module-1",
+      "question": "What is an Operating System? Explain any 3 types of Operating System.",
+      "topic": "Operating System Structures"
+    },
+    {
+      "marks": "7",
+      "module": "Module-1",
+      "question": "What is a system call? What are the different ways to pass parameters to system call? List basic types of system call with examples.",
+      "topic": "System Calls"
+    },
+    {
+      "marks": "8",
+      "module": "Module-1",
+      "question": "Write notes on the following operating system structures. (i) Microkernel structure (ii) Simple Structure (iii) Layered Structure",
+      "topic": "Operating System Structures"
+    },
+    {
+      "marks": "6",
+      "module": "Module-1",
+      "question": "Describe the differences between symmetric and asymmetric multiprocessing. What are the advantages and disadvantages of multiprocessor systems?",
+      "topic": "Operating System Structures"
+    },
+    {
+      "marks": "7",
+      "module": "Module-2",
+      "question": "Define process. With the help of a neat diagram explain different states of process.",
+      "topic": "Process States and PCB"
+    },
+    {
+      "marks": "7",
+      "module": "Module-2",
+      "question": "With an example, illustrate the interprocess communication using Shared memory",
+      "topic": "Inter-Process Communication (IPC)"
+    },
+    {
+      "marks": "8",
+      "module": "Module-2",
+      "question": "Assume you have the following jobs in a system that to be executed with a single processor. Now, \nProcess ID | Arrival Time | Burst Time (ms)\nPO | 0 | 75\nP1 | 10 | 40\nP2 | 10 | 25\nP3 | 55 | 30\nP4 | 95 | 45\ni) Create a Gantt chart illustrating the execution\nii) Find the average waiting time\niii) Find the average turnaround time\nFor the above processes, when the system uses a) Preemptive Scheduling b) RR Scheduling (Time Quantum = 15 ms)",
+      "topic": "Process Scheduling Algorithms"
+    },
+    {
+      "marks": "6",
+      "module": "Module-2",
+      "question": "What are threads? What are the benefits of multithreaded programming? List the ways of establishing relationship between user threads and kernel thread.",
+      "topic": "Threads"
+    },
+    {
+      "marks": "6",
+      "module": "Module-3",
+      "question": "Explain Dining Philosophers Problem. Give a solution for the problem using monitors.",
+      "topic": "Classic Synchronization Problems"
+    },
+    {
+      "marks": "8",
+      "module": "Module-3",
+      "question": "What do you mean by deadlock? What are the four necessary conditions for a deadlock to occur? Describe various deadlock prevention mechanisms.",
+      "topic": "Deadlock Prevention"
+    },
+    {
+      "marks": "7",
+      "module": "Module-3",
+      "question": "What is a semaphore? Describe how semaphores can be used as a process synchronisation mechanism?",
+      "topic": "Semaphores"
+    },
+    {
+      "marks": "7",
+      "module": "Module-3",
+      "question": "Consider the following snapshot of the system with five processes P1, P2, P3,P4,P5 and four resources A, B, C, D. Using Bankers Algorithm, check whether the system is in safe state or not.\n\nAllocation:\nP1: A-1 B-0 C-2 D-2\nP2: A-0 B-2 C-1 D-2\nP3: A-2 B-4 C-5 D-0\nP4: A-3 B-0 C-0 D-0\nP5: A-4 B-2 C-1 D-3\n\nMax:\nP1: A-3 B-2 C-5 D-2\nP2: A-3 B-4 C-1 D-2\nP3: A-2 B-7 C-7 D-3\nP4: A-5 B-5 C-0 D-7\nP5: A-6 B-2 C-1 D-4\n\nAvailable:\nA-3 B-0 C-0 D-1",
+      "topic": "Banker's Algorithm"
+    },
+    {
+      "marks": "5",
+      "module": "Module-4",
+      "question": "With the help of a diagram explain how logical address is translated to physical address in case of segmentation scheme. Consider the following segment table of a process.\nSegment | Base | Limit\n0 | 219 | 600\n1 | 2300 | 14\n2 | 90 | 100\n3 | 1327 | 580\n4 | 1952 | 96\nCompute the resultant physical addresses for the following logical addresses. (i) 0, 430 (ii) 1, 10 (iii) 2,500 (iv) 3, 400 (v) 4, 112",
+      "topic": "Segmentation"
+    },
+    {
+      "marks": "9",
+      "module": "Module-4",
+      "question": "Consider the following page reference stream, R=3, 2, 4, 3, 4, 2, 2, 3, 4, 5, 6, 7, 7, 6, 5, 4, 5, 6, 7, 2, 1. Assuming demand paging with three frames, how many page faults would occur for the following page replacement algorithms. i) LRU replacement ii) FIFO replacement iii) Optimal replacement",
+      "topic": "Page Replacement Algorithms"
+    },
+    {
+      "marks": "6",
+      "module": "Module-4",
+      "question": "Define Demand Paging. Explain Swapping with a neat diagram.",
+      "topic": "Demand Paging"
+    },
+    {
+      "marks": "8",
+      "module": "Module-4",
+      "question": "Consider a fixed partitioned memory management scheme with fixed partitions are 150K, 300K, 550K, 400K, 250K and 200K (in order). Five processes are ready for execution each with memory requirement as P1(240K), P2(120K), P3(380K), P4(300K) and P5(350K). Write the allocation in each of the following cases and calculate the internal fragmentation and external fragmentation (if any) in each case. (i) First Fit (ii) Best Fit (iii) Worst Fit",
+      "topic": "Contiguous Memory Allocation"
+    },
+    {
+      "marks": "5",
+      "module": "Module-5",
+      "question": "List out the logical structures of a directory with figures.",
+      "topic": "Directory Implementation"
+    },
+    {
+      "marks": "9",
+      "module": "Module-5",
+      "question": "With neat sketches illustrate the following disk space allocation algorithms (i) Contiguous allocation (ii) Linked allocation (iii) Indexed allocation?",
+      "topic": "File Allocation Methods"
+    },
+    {
+      "marks": "6",
+      "module": "Module-5",
+      "question": "Discuss Protection. Write notes about the protection strategies provided for files.",
+      "topic": "File Protection"
+    },
+    {
+      "marks": "8",
+      "module": "Module-5",
+      "question": "Consider a disk queue with requests for I/O to blocks on cylinders 98, 183, 41,122, 14, 124, 65, 67. The head is initially at cylinder number 53. The cylinders are numbered from 0 to 199. Find out the total head movement incurred while servicing these requests, if following scheduling algorithms are used-(i) FCFS (ii) SSTF (iii) C-SCAN (iv) LOOK",
+      "topic": "Disk Scheduling"
+    }
+  ],
+  "scheme": "2019 Scheme",
+  "year": 2023
 }

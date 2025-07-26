@@ -1,0 +1,189 @@
+{
+  "courseCode": "CST206",
+  "courseName": "OPERATING SYSTEMS",
+  "month": "June",
+  "questions": [
+    {
+      "marks": "3",
+      "module": "Module-1",
+      "question": "What are the operations taking place when a system call is executed?",
+      "topic": "System Calls"
+    },
+    {
+      "marks": "3",
+      "module": "Module-1",
+      "question": "What are multiprocessor systems? What are the advantages of multiprocessor systems?",
+      "topic": "Operating System Structures"
+    },
+    {
+      "marks": "3",
+      "module": "Module-2",
+      "question": "Write the difference between process and thread.",
+      "topic": "Threads"
+    },
+    {
+      "marks": "3",
+      "module": "Module-2",
+      "question": "Differentiate between the two common models of interprocess communication.",
+      "topic": "Inter-Process Communication (IPC)"
+    },
+    {
+      "marks": "3",
+      "module": "Module-3",
+      "question": "Write the three requirements that a solution to critical-section problem must satisfy.",
+      "topic": "Critical Section Problem"
+    },
+    {
+      "marks": "3",
+      "module": "Module-3",
+      "question": "Explain the priority inheritance protocol for solving the priority inversion problem.",
+      "topic": "Classic Synchronization Problems"
+    },
+    {
+      "marks": "3",
+      "module": "Module-4",
+      "question": "What do you understand by external and internal fragmentation in case of memory management schemes.",
+      "topic": "Contiguous Memory Allocation"
+    },
+    {
+      "marks": "3",
+      "module": "Module-4",
+      "question": "Explain the concept of demand paging?",
+      "topic": "Demand Paging"
+    },
+    {
+      "marks": "3",
+      "module": "Module-5",
+      "question": "Explain the linked allocation of file allocation with merits and demerits.",
+      "topic": "File Allocation Methods"
+    },
+    {
+      "marks": "3",
+      "module": "Module-5",
+      "question": "Point out the differences between C-SCAN and C-LOOK scheduling algorithms.",
+      "topic": "Disk Scheduling"
+    },
+    {
+      "marks": "10",
+      "module": "Module-1",
+      "question": "Explain the essential properties of the following types of Operating systems:\ni) Batch operating system\nii) Time sharing operating system\niii) Real time operating system\niv) Distributed operating system",
+      "topic": "Operating System Structures"
+    },
+    {
+      "marks": "4",
+      "module": "Module-1",
+      "question": "Explain the layered approach of the operating system structure.",
+      "topic": "Operating System Structures"
+    },
+    {
+      "marks": "8",
+      "module": "Module-1",
+      "question": "Explain any four Kernel data structures with suitable examples.",
+      "topic": "Operating System Structures"
+    },
+    {
+      "marks": "6",
+      "module": "Module-1",
+      "question": "Justify the statement \"Operating System can be viewed as a government, resource allocator and a control program\".",
+      "topic": "Operating System Structures"
+    },
+    {
+      "marks": "7",
+      "module": "Module-2",
+      "question": "With the help of a diagram, explain the operations taking place when the CPU switches from one process to another.",
+      "topic": "Process States and PCB"
+    },
+    {
+      "marks": "7",
+      "module": "Module-2",
+      "question": "Explain how the logical communication link is established and the messages are passed in case of direct and indirect communication, in a message passing system.",
+      "topic": "Inter-Process Communication (IPC)"
+    },
+    {
+      "marks": "9",
+      "module": "Module-2",
+      "question": "For the following set of processes draw the Gantt chart and find the average waiting time for :\n(i) FCFS\n(ii) SJF\n(iii) SRTF\nProcess | Arrival time (in sec) | Burst Time(in sec)\nP1 | 0 | 4\nP2 | 1 | 2\nP3 | 2 | 5\nP4 | 3 | 4",
+      "topic": "Process Scheduling Algorithms"
+    },
+    {
+      "marks": "5",
+      "module": "Module-2",
+      "question": "Explain the working of multi-level feedback queue scheduling.",
+      "topic": "Process Scheduling Algorithms"
+    },
+    {
+      "marks": "8",
+      "module": "Module-3",
+      "question": "Consider a system with four processes P1, P2, P3, P4 and four types of resources R1, R2, R3, R4. The maximum number of instances of resources of each type are 5, 7, 7 and 7 respectively. What will be the order of processing of jobs if the allocated matrix and the maximum demand matrix are as given below.\nAllocated Matrix\nR1 R2 R3 R4\nP1 2 1 3 2\nP2 0 0 1 2\nP3 1 2 1 1\nP4 1 1 0 2\nMaximum Claim\nR1 R2 R3 R4\nP1 3 5 6 4\nP2 1 3 4 6\nP3 1 4 3 2\nP4 2 3 1 2",
+      "topic": "Banker's Algorithm"
+    },
+    {
+      "marks": "6",
+      "module": "Module-3",
+      "question": "Explain how semaphores can be used to solve Readers-Writers problem.",
+      "topic": "Classic Synchronization Problems"
+    },
+    {
+      "marks": "8",
+      "module": "Module-3",
+      "question": "State dining philosopher's problem and give a solution using semaphores. Write structure of philosopher.",
+      "topic": "Classic Synchronization Problems"
+    },
+    {
+      "marks": "6",
+      "module": "Module-3",
+      "question": "Explain the methods for deadlock prevention.",
+      "topic": "Deadlock Prevention"
+    },
+    {
+      "marks": "9",
+      "module": "Module-4",
+      "question": "Consider the following page reference string\n1, 2, 3, 4, 2, 1, 5, 6, 2, 1, 2, 3, 7, 6, 3, 2, 1, 2, 3, 6\nFind the number of page faults if there are 4-page frames, using the following page replacement algorithms (i) LRU (ii) FIFO (iii) Optimal.",
+      "topic": "Page Replacement Algorithms"
+    },
+    {
+      "marks": "5",
+      "module": "Module-4",
+      "question": "With the help of an example explain the concept of shared pages in a paging system.",
+      "topic": "Paging"
+    },
+    {
+      "marks": "8",
+      "module": "Module-4",
+      "question": "Memory is divided into fixed partitions of sizes 100KB, 500KB, 200KB, 300KB, 600KB in the order and all these partitions are available. Suppose processes of size requirements 212KB, 417KB, 112KB, 426KB are arrived in the system in that order. Show how the first fit, best fit and worst fit algorithms works to place processes into partitions. Which is the best algorithm?",
+      "topic": "Contiguous Memory Allocation"
+    },
+    {
+      "marks": "6",
+      "module": "Module-4",
+      "question": "Explain the concept of a hashed page table with a diagram.",
+      "topic": "Paging"
+    },
+    {
+      "marks": "9",
+      "module": "Module-5",
+      "question": "Explain FCFS, SSTF and SCAN disk scheduling algorithms, using the given disk queue of requests: 20, 89, 130, 45 and 180. Assume that, the disk has 200 platters ranging from 0 to 199 and the current position of head is at cylinder 100.",
+      "topic": "Disk Scheduling"
+    },
+    {
+      "marks": "5",
+      "module": "Module-5",
+      "question": "Explain the different methods used for keeping track of free disk space.",
+      "topic": "File System Implementation"
+    },
+    {
+      "marks": "7",
+      "module": "Module-5",
+      "question": "There are 4 domains (D1, D2, D3, D4) and 4 objects (files – F1, F2, F3, F4). A process executing in D1 can read and write files F1, F3 and F4. A process in D4 can read F1, read & write F3 and execute F2. A process in D2/D3 can read F2 and execute F4. A process in D1 can switch to D2 or D4. A process in D4 can switch to D3. Draw the access matrix showing all these details.",
+      "topic": "File Protection"
+    },
+    {
+      "marks": "7",
+      "module": "Module-5",
+      "question": "How can we make a new magnetic disk ready for use (to store files)?",
+      "topic": "Disk Formatting"
+    }
+  ],
+  "scheme": "2019 scheme",
+  "year": 2023
+}
