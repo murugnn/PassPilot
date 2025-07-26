@@ -98,7 +98,7 @@ def test_query_endpoint():
             print(f"   ❌ Query error: {str(e)}")
 
 def test_topics_endpoint():
-    """Test the frequent topics endpoint."""
+    """Test the frequent topics endpoint with updated features."""
     print("\n📈 Testing topics endpoint...")
 
     try:
@@ -113,8 +113,30 @@ def test_topics_endpoint():
             # Show top topics if available
             if data.get('frequent_topics'):
                 print("   Top frequent topics:")
+
                 for i, topic in enumerate(data['frequent_topics'][:3], 1):
-                    print(f"      {i}. Frequency: {topic.get('frequency', 0)} - {topic.get('representative_question', '')[:80]}...")
+                    keywords = ', '.join(topic.get('topic_keywords', []))
+                    cohesion = topic.get('cohesion_score', None)
+                    freq = topic.get('frequency', 0)
+                    examples = topic.get('examples', [])
+
+                    print(f"      {i}. Frequency: {freq}")
+                    print(f"         Keywords: {keywords}")
+                    print(f"         Cohesion Score: {round(cohesion, 3) if cohesion is not None else 'N/A'}")
+
+                    if examples:
+                        print(f"         Example Q: {examples[0].get('question', '')[:80]}...")
+                    else:
+                        print("         ⚠️ No example questions found.")
+
+                    # Validation checks
+                    if not keywords or not isinstance(keywords, str) and not isinstance(keywords, list):
+                        print(f"         ❌ Invalid topic keywords format")
+                    if cohesion is not None and not (0.0 <= cohesion <= 1.0):
+                        print(f"         ❌ Invalid cohesion score: {cohesion}")
+
+            else:
+                print("   ❌ No topic clusters returned")
 
             return True
         else:
@@ -125,6 +147,7 @@ def test_topics_endpoint():
     except Exception as e:
         print(f"❌ Topics error: {str(e)}")
         return False
+
 
 def test_error_handling():
     """Test error handling scenarios."""
