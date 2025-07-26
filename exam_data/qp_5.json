@@ -1,0 +1,159 @@
+{
+   "courseCode":"CST 206",
+   "courseName":"OPERATING SYSTEMS",
+   "month":"April",
+   "questions":[
+      {
+         "marks":"3",
+         "module":"Module 1",
+         "question":"Define user mode and kernel mode. Why the two modes of operations are required for the system?"
+      },
+      {
+         "marks":"3",
+         "module":"Module 1",
+         "question":"Write the operations taking place during the booting of a system."
+      },
+      {
+         "marks":"3",
+         "module":"Module 2",
+         "question":"With a neat diagram, explain various states of a process."
+      },
+      {
+         "marks":"3",
+         "module":"Module 2",
+         "question":"Differentiate between Short term, Medium Term and Long term process schedulers."
+      },
+      {
+         "marks":"3",
+         "module":"Module 3",
+         "question":"What are the conditions that a solution to the critical section problem must satisfy?"
+      },
+      {
+         "marks":"3",
+         "module":"Module 3",
+         "question":"What is a resource-allocation graph?"
+      },
+      {
+         "marks":"3",
+         "module":"Module 4",
+         "question":"What do you mean by thrashing?"
+      },
+      {
+         "marks":"3",
+         "module":"Module 4",
+         "question":"How is swapping done? Explain with the help of a diagram."
+      },
+      {
+         "marks":"3",
+         "module":"Module 5",
+         "question":"Name any three file access methods? How do they differ ?"
+      },
+      {
+         "marks":"3",
+         "module":"Module 5",
+         "question":"Define the terms i) Seek time ii) Rotational bandwidth iii) Disk bandwidth"
+      },
+      {
+         "marks":"10",
+         "module":"Module 1",
+         "question":"Explain various structures of the operating system with the help of neat diagrams."
+      },
+      {
+         "marks":"4",
+         "module":"Module 1",
+         "question":"Explain the services offered by an operating system."
+      },
+      {
+         "marks":"8",
+         "module":"Module 1",
+         "question":"Explain any four functions of an Operating System."
+      },
+      {
+         "marks":"6",
+         "module":"Module 1",
+         "question":"Describe the purpose of system call. How do the parameter passing takes place in system call."
+      },
+      {
+         "marks":"6",
+         "module":"Module 2",
+         "question":"Explain Inter Process Communication using a shared memory model."
+      },
+      {
+         "marks":"8",
+         "module":"Module 2",
+         "question":"Draw a Gantt chart illustrating the execution of the following processes given in the table using priority scheduling algorithm (non preemptive) and also calculate the average waiting time and average turnaround time for them. Process: P0 Arrival Time: 0 Burst Time: 8 Priority: 5; Process: P1 Arrival Time: 1 Burst Time: 4 Priority: 2; Process: P2 Arrival Time: 2 Burst Time: 1 Priority: 1; Process: P3 Arrival Time: 3 Burst Time: 5 Priority: 3; Process: P4 Arrival Time: 4 Burst Time: 2 Priority: 4"
+      },
+      {
+         "marks":"6",
+         "module":"Module 2",
+         "question":"Explain process creation in an operating system using suitable example."
+      },
+      {
+         "marks":"8",
+         "module":"Module 2",
+         "question":"Draw Gantt Chart and find the average waiting time and average turnaround time for the processes given in the table below for the Round Robin CPU Scheduling algorithm. Assume time slice is 2 ms. Process: P1 Arrival Time: 0 Burst Time: 5; Process: P2 Arrival Time: 1 Burst Time: 4; Process: P3 Arrival Time: 2 Burst Time: 2; Process: P4 Arrival Time: 3 Burst Time: 1"
+      },
+      {
+         "marks":"7",
+         "module":"Module 3",
+         "question":"Explain how semaphores can be used to solve Readers-Writers problem."
+      },
+      {
+         "marks":"7",
+         "module":"Module 3",
+         "question":"How can hardware instruction be used to solve critical section problem? Explain."
+      },
+      {
+         "marks":"10",
+         "module":"Module 4",
+         "question":"Consider the following snapshot of a system: PROCESS: P0 ALLOCATION: A:0 B:0 C:1 D:2 MAX: A:0 B:0 C:1 D:2 AVAILABLE: A:1 B:5 C:2 D:0; PROCESS: P1 ALLOCATION: A:1 B:0 C:0 D:0 MAX: A:1 B:7 C:5 D:0; PROCESS: P2 ALLOCATION: A:1 B:3 C:5 D:4 MAX: A:2 B:3 C:5 D:6; PROCESS: P3 ALLOCATION: A:0 B:6 C:3 D:2 MAX: A:0 B:6 C:5 D:2; PROCESS: P4 ALLOCATION: A:0 B:0 C:1 D:4 MAX: A:0 B:6 C:5 D:6. Answer the following questions using Bankers algorithm a. What is the content of \"Need\" matrix? b. Is the system in a safe state? Justify your answer. c. If a request from P1 arrives for (0 4 2 0), can the request be granted immediately"
+      },
+      {
+         "marks":"4",
+         "module":"Module 4",
+         "question":"Define semaphore with its operations. What are the two types of Semaphores?"
+      },
+      {
+         "marks":"6",
+         "module":"Module 4",
+         "question":"Given six memory partitions of 300 KB, 600 KB, 350 KB, 200 KB, 750 KB, and 125 KB (in order), how would the first-fit and best-fit algorithms place processes of size 115 KB, 500 KB, 358 KB, 200 KB, and 375 KB (in order)? Rank the algorithms in terms of how efficiently they use memory."
+      },
+      {
+         "marks":"8",
+         "module":"Module 4",
+         "question":"How do segmentation differ from paging?"
+      },
+      {
+         "marks":"9",
+         "module":"Module 5",
+         "question":"Consider the following page reference string: 505352501073. Given that, number of frames is 3, find how many page faults would occur for the following page replacement algorithms. i) LRU replacement ii) FIFO replacement iii) Optimal replacement"
+      },
+      {
+         "marks":"5",
+         "module":"Module 5",
+         "question":"With the help of a diagram, explain how logical address is translated into physical address in paging. Illustrate with an example."
+      },
+      {
+         "marks":"9",
+         "module":"Module 5",
+         "question":"Explain FCFS, SSTF and SCAN disk scheduling algorithms. For the given disk queue of requests: - 98,183,37,122,14,124,65,67, find the total seek time for FCFS, SSTF and SCAN disk scheduling algorithms. Assume that current position of head is at 53."
+      },
+      {
+         "marks":"5",
+         "module":"Module 5",
+         "question":"Explain any two file allocation methods."
+      },
+      {
+         "marks":"6",
+         "module":"Module 5",
+         "question":"Explain Elevator algorithm for disk scheduling with an example."
+      },
+      {
+         "marks":"8",
+         "module":"Module 5",
+         "question":"Describe any four directory structures used in file systems."
+      }
+   ],
+   "scheme":"2019 Scheme",
+   "year":2025
+}

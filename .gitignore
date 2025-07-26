@@ -1,0 +1,61 @@
+# Operating System and Editor Specific Files
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# Build Artifacts
+build/
+dist/
+out/
+target/
+*.log
+*.tmp
+*.bak
+*.swp
+*.swo
+
+# Dependency Directories
+node_modules/
+vendor/
+
+# Environment Variables and Configuration
+.env
+.env.*
+config.local.js
+*.conf.local
+
+# IDE Specific Files (e.g., for Java projects)
+.classpath
+.project
+.settings/
+*.iml
+*.iws
+*.ipr
+
+# Compiled Files (e.g., for Python)
+__pycache__/
+*.pyc
+*.pyd
+*.o
+*.so
+
+# Executables
+*.exe
+*.dll
+*.obj
+
+# Test and Coverage Reports
+coverage/
+.nyc_output/
+junit.xml
+
+# Other common ignore patterns
+*.zip
+*.tar.gz
+*.rar
+
+#venv
+PP/

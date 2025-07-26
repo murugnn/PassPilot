@@ -1,0 +1,159 @@
+{
+   "courseCode":"CST206",
+   "courseName":"OPERATING SYSTEMS",
+   "month":"June",
+   "questions":[
+      {
+         "marks":"3",
+         "module":"Module 1",
+         "question":"Describe the role of bootstrap loader in booting a computer system."
+      },
+      {
+         "marks":"3",
+         "module":"Module 1",
+         "question":"How is distinction of kernel code from user code achieved at hardware level?"
+      },
+      {
+         "marks":"3",
+         "module":"Module 2",
+         "question":"How many times will 'Forked' get printed by the below code and justify your answer. int main() { fork(); fork(); printf(\"Forked\\n\"); return 0;}"
+      },
+      {
+         "marks":"3",
+         "module":"Module 2",
+         "question":"List and explain the various synchronous and asynchronous methods of message passing in IPC."
+      },
+      {
+         "marks":"3",
+         "module":"Module 3",
+         "question":"What is meant by race condition? Explain with the help of an example."
+      },
+      {
+         "marks":"3",
+         "module":"Module 3",
+         "question":"Explain the two strategies used to recover from a deadlock."
+      },
+      {
+         "marks":"3",
+         "module":"Module 4",
+         "question":"Differentiate between compile time and load time address binding."
+      },
+      {
+         "marks":"3",
+         "module":"Module 4",
+         "question":"Consider a logical address space of 256 pages with a 4-KB page size, mapped onto a physical memory of 64 frames. Find the (i) number of bits in the logical address (ii) number of bits in the physical address (iii) number of bits in the offset part of logical address"
+      },
+      {
+         "marks":"3",
+         "module":"Module 5",
+         "question":"Define seek time, rotational latency and disk bandwidth of disks."
+      },
+      {
+         "marks":"3",
+         "module":"Module 5",
+         "question":"Explain two level directory structure with the help of a diagram."
+      },
+      {
+         "marks":"7",
+         "module":"Module 1",
+         "question":"What is the purpose of a system call? Describe how a system call made by a user application is handled."
+      },
+      {
+         "marks":"7",
+         "module":"Module 1",
+         "question":"Explain the micro kernel approach to system design with the help of a diagram. How do user programs and kernel services interact in microkernel architecture?"
+      },
+      {
+         "marks":"12",
+         "module":"Module 1",
+         "question":"Describe in detail about the various functions of Operating systems."
+      },
+      {
+         "marks":"2",
+         "module":"Module 1",
+         "question":"What are the advantages of multiprocessor systems?"
+      },
+      {
+         "marks":"6",
+         "module":"Module 2",
+         "question":"What is meant by context switching? Illustrate the timeline of context switching between two processes using PCBs with the help of a diagram."
+      },
+      {
+         "marks":"8",
+         "module":"Module 2",
+         "question":"Differentiate between the following schedulers. (i) Short-term and long term scheduler (ii) Pre-emptive and non-preemptive scheduler"
+      },
+      {
+         "marks":"9",
+         "module":"Module 2",
+         "question":"Assume you have the following jobs shown in the table to execute with one processor. Draw the Gantt chart and calculate the average waiting time and average turnaround time if the system uses the following scheduling algorithms (i) Preemptive priority scheduling (ii) Nonpreemtive priority scheduling (iii) Non-preemptive Shortest Job first scheduling. Assume higher priority is indicated with lower numbers. Process: P0, Arrival Time(ms): 0, CPU Burst Time(ms): 4, Priority: 3; Process: P1, Arrival Time(ms): 2, CPU Burst Time(ms): 5, Priority: 2; Process: P2, Arrival Time(ms): 3, CPU Burst Time(ms): 1, Priority: 1; Process: P3, Arrival Time(ms): 4, CPU Burst Time(ms): 3, Priority: 4"
+      },
+      {
+         "marks":"5",
+         "module":"Module 2",
+         "question":"Explain the different states of a process and transition between them with the help of a diagram."
+      },
+      {
+         "marks":"6",
+         "module":"Module 3",
+         "question":"What is a critical section? State and explain the conditions to be satisfied by a solution to the critical section problem."
+      },
+      {
+         "marks":"8",
+         "module":"Module 3",
+         "question":"Illustrate how resource allocation graph can be used to (i) detect deadlocks and (ii) avoid deadlocks."
+      },
+      {
+         "marks":"5",
+         "module":"Module 3",
+         "question":"Write the algorithm or pseudocode for solving the Dining-Philosophers problem using semaphores. Is the solution prone to deadlocks or starvation? Discuss."
+      },
+      {
+         "marks":"9",
+         "module":"Module 3",
+         "question":"Given the following snapshot of a system at time T0. Allocation: P0 A:0 B:0 C:1 D:2, P1 A:1 B:0 C:0 D:0, P2 A:1 B:3 C:5 D:4, P3 A:0 B:6 C:3 D:2, P4 A:0 B:0 C:1 D:4. Max Required: P0 A:0 B:0 C:1 D:2, P1 A:1 B:7 C:5 D:0, P2 A:2 B:3 C:5 D:6, P3 A:0 B:6 C:5 D:2, P4 A:0 B:6 C:5 D:6. Available: A:1 B:5 C:2 D:0. Find whether the system is in a safe state using Banker's algorithm. If P1 generates a request for (0,4,2,0), can the request be granted immediately?"
+      },
+      {
+         "marks":"9",
+         "module":"Module 4",
+         "question":"Calculate the number of page faults for the following reference string with three page frames, using the following algorithms. 9, 2, 3, 1, 2, 5, 3, 4, 6, 9, 9, 1, 0, 5, 4, 6, 2, 3, 0, 1 (i) FIFO (ii) Optimal (iii) LRU"
+      },
+      {
+         "marks":"5",
+         "module":"Module 4",
+         "question":"Compare the memory organization schemes of pure paging and pure segmentation with respect to the following issues: (i) External Fragmentation (ii) Internal Fragmentation"
+      },
+      {
+         "marks":"6",
+         "module":"Module 4",
+         "question":"Explain how a process larger than the physical memory can be executed with the help of virtual memory. Describe the concept using demand paging."
+      },
+      {
+         "marks":"8",
+         "module":"Module 4",
+         "question":"How does translation look-aside buffer (TLB) help to speed up the page access? Illustrate address translation using TLB."
+      },
+      {
+         "marks":"4",
+         "module":"Module 5",
+         "question":"List and explain the different access methods for files."
+      },
+      {
+         "marks":"10",
+         "module":"Module 5",
+         "question":"Describe linked and indexed allocation methods for files with the help of neat diagrams."
+      },
+      {
+         "marks":"9",
+         "module":"Module 5",
+         "question":"Suppose that a disk drive has 200 cylinders numbered from 0 to 199 and the current position of the head is at cylinder 100. For the given disk queue of requests: - 20, 89, 130, 45, 120 and 180, draw the head movement in FCFS, SSTF, CSCAN disk scheduling algorithms and compute the total head movements (in cylinders) in each."
+      },
+      {
+         "marks":"5",
+         "module":"Module 5",
+         "question":"Describe the general scheme of using three classifications of users in connection with file access control with the help of an example."
+      }
+   ],
+   "scheme":"2019 scheme",
+   "year":2022
+}
