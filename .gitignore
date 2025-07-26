@@ -63,3 +63,4 @@ hack/
 
 #cache
 cache/
+chroma_db/
