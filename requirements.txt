@@ -18,3 +18,7 @@ numpy<2  # <--- THIS IS THE CRITICAL FIX
 
 # The pandas library is an indirect dependency, 
 # but we don't need to list it here. Pip will handle it.
+
+fastapi
+uvicorn
+supabase
