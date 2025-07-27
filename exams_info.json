@@ -1,0 +1,47 @@
+{
+    "courses": [
+        {
+            "courseCode": "CST206",
+            "topics": [
+                "Operating System Structures",
+                "System Calls",
+                "System Boot Process",
+                "Process States and PCB",
+                "Threads",
+                "Process Lifecycle Management",
+                "Inter-Process Communication (IPC)",
+                "Process Scheduling Criteria",
+                "Process Scheduling Algorithms",
+                "Critical Section Problem",
+                "Process Synchronization Mechanisms",
+                "Mutex Locks",
+                "Semaphores",
+                "Monitors",
+                "Classic Synchronization Problems",
+                "Deadlock Conditions",
+                "Resource Allocation Graphs",
+                "Deadlock Prevention",
+                "Deadlock Avoidance",
+                "Banker's Algorithm",
+                "Deadlock Detection and Recovery",
+                "Address Spaces",
+                "Swapping",
+                "Contiguous Memory Allocation",
+                "Paging",
+                "Segmentation",
+                "Virtual Memory",
+                "Demand Paging",
+                "Page Replacement Algorithms",
+                "File Concepts and Operations",
+                "File Access Methods",
+                "File System Implementation",
+                "Directory Implementation",
+                "File Allocation Methods",
+                "File Protection",
+                "Disk Structure",
+                "Disk Scheduling",
+                "Disk Formatting"
+            ]
+        }
+    ]
+}
